@@ -7,16 +7,17 @@ module.exports = {
     async getThoughts(req, res) {
         try {
             const thoughts = await Thought.find()   
-            .select('-__v')         
+                .sort({createdAt: -1});
+                       
             res.json(thoughts);
         } catch (err) {
+            console.log(err);
             res.status(500).json(err);
         }
-
     },
 
     //get one thought
-    async getOneThought(req, res) {
+    async getThoughtbyId(req, res) {
         try {
             const thought = await Thought.findOne({ _id: req.params.thoughtId })
 

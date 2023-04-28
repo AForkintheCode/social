@@ -1,5 +1,5 @@
-const now = new Date();
-
-const dateFormat = now.toLocaleString();
-
-module.exports = dateFormat;
+const dateFormat = (timestamp) => {
+    return new Date(timestamp).toLocaleString();
+  };
+  
+  module.exports = dateFormat;
