@@ -1,7 +1,7 @@
 # Social Network API
 
   ## Description
-  This is a API designed to handle GET,POSPOST, PUT, and DELETE routes for users and thoughts.
+  This is a API designed to handle GET,POST, PUT, and DELETE routes for a social network..
 
   ## Table of Contents
 
