@@ -1,5 +1,5 @@
 const now = new Date();
 
-const dateFormat = (now, "dddd, mmmm dS, yyyy, h:MM TT");
+const dateFormat = now.toLocaleString();
 
 module.exports = dateFormat;
