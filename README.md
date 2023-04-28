@@ -12,7 +12,7 @@
   
 
   ## Installation
-  No installation required, simply insure that all the proper files are  accessible.
+  No installation required, simply ensure that all the proper files are  accessible.
 
   ## Usage
   Run the app from console using npm start
